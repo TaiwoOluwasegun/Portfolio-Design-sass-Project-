@@ -10,7 +10,7 @@
         width: 28px;
         height: 3px;
         margin: 0 0 5px 0;
-        background: #fff;
+        background: set-text-color($primary-color);
         @include easeout;
     }
     //rotating menu btn
@@ -106,7 +106,7 @@
     line-height: 1;
     margin-bottom: 0;
     font-weight: 400;
-    color: #fff;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeout;
     &:hover {
