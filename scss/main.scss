@@ -31,6 +31,37 @@ h3 {
         background: lighten($primary-color, 1);
     }
 }
+h2 span{
+    display: inline-block;
+    animation: animate 5s infinite ease-in-out;
+}
+@keyframes animate{
+    0%{
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(5px);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0px);
+        
+    }
+}
+h2 span:nth-child(1){
+    animation-delay: 1s;
+}
+h2 span:nth-child(2){
+    animation-delay: 2.5s;
+}
+h2 span:nth-child(3){
+    animation-delay: 3.5s;
+}
+h2 span:nth-child(4){
+    animation-delay: 4.5s;
+}
+
+
 h6{
     font-size: 1rem;
     font-weight: 300;
@@ -141,7 +172,7 @@ main {
     div{
         font-size: 1.5rem;
         border: 3px #fff solid;
-        padding: 1.0rem 1.5rem;
+        padding: 1.0rem 1.2rem;
         margin-bottom: 3rem;
         @include easeout
 
