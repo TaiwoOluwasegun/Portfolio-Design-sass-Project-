@@ -35,7 +35,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: 0.9;
+    opacity: 1;
     visibility: hidden;
     &.show {
         visibility: visible;
@@ -79,7 +79,7 @@
     .potrait {
         width: 250px;
         height: 250px;
-        background: url("../img/ext.jpg");
+        background: url("../img/ext2.jpg");
         border-radius: 50%;
         border: solid 3px $secondary-color;
     }
